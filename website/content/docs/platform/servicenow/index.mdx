@@ -9,8 +9,8 @@ description: >-
 
 ServiceNow® MID servers can use the Vault Credential Resolver to consume secrets
 directly from Vault for the purpose of performing discovery. See
-[installation](/docs/platform/servicenow/installation) and
-[configuration](/docs/platform/servicenow/configuration) for help getting started
+[installation](/vault/docs/platform/servicenow/installation) and
+[configuration](/vault/docs/platform/servicenow/configuration) for help getting started
 with the Vault Credential Resolver.
 
 ## Overview
@@ -23,7 +23,7 @@ credentials. Customers can use ServiceNow's built-in credential storage, or inst
 an external credential resolver to take advantage of their existing enterprise-grade
 secret storage solution.
 
-[![Architecture Overview](/img/servicenow-vault-credential-resolver-diagram.png)](/img/servicenow-vault-credential-resolver-diagram.png)
+[![Architecture Overview](https://vaultproject.io/img/servicenow-vault-credential-resolver-diagram.png)](https://vaultproject.io/img/servicenow-vault-credential-resolver-diagram.png)
 
 The Vault Credential Resolver is one such resolver. The MID server will not
 store or cache any credentials marked as external, and will invoke the
